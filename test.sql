@@ -1,1 +1,0 @@
-SELECT * FROM `customers` WHERE `country`=? AND `state`=?
