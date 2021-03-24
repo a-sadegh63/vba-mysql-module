@@ -241,7 +241,7 @@ Public Function mysqlExecQry(sqlType As mysqlQryType, _
                              Optional sqlString As String, _
                              Optional sqlPath As String, _
                              Optional getLastId As Boolean = False, _
-                             Optional newTrans As Boolean = False) As Double
+                             Optional newTrans As Boolean = True) As Double
 On Error GoTo errH
 
 ' You can use this function to run your select query and store result
