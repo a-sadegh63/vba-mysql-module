@@ -17,20 +17,20 @@ To connect Microsoft access or Microsoft excel to MySQL server first
 install MySQL ODBC Driver from [this link](https://dev.mysql.com/downloads/connector/odbc/)
 
 ### Config File Format
-mysqlDriver = #your_ODBC_driver_name#
-mysqlServer = #server_address#
-mysqlUser = #your_database_username#
-mysqlPassword = #your_database_password#
-mysqlDATABASE = #your_database_name#
-mysqlPort = #3306#
-To find ODBC driver name follow this step:
-	1- Control panel
-	2- view by : large icon or small icon
-	3- Administrative Tools
-	4- Double click on ODBC Data Sources (32-bit) or 
-	   ODBC Data Sources (64-bit) base on your OS
-	5- Drivers tab
-	6- You can find MySQL ODBC driver name on first column
+* mysqlDriver = #your_ODBC_driver_name#  
+* mysqlServer = #server_address#  
+* mysqlUser = #your_database_username#  
+* mysqlPassword = #your_database_password#  
+* mysqlDATABASE = #your_database_name#  
+* mysqlPort = #3306#  
+
+To find ODBC driver name follow this steps:  
+1. Control panel  
+2. view by : large icon or small icon  
+3. Administrative Tools  
+4. Double click on ODBC Data Sources (32-bit) or ODBC Data Sources (64-bit) base on your OS  
+5. Drivers tab  
+6. You can find MySQL ODBC driver name on first column  
 	
 ### Run Parameterized Select Query
 ```
