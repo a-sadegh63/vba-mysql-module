@@ -8,9 +8,9 @@ To support me please click on the link below.
 
 ### Installation
 To install VBA Mysql Module follow this step:
-	1. open VBE editor on your excel or access application (ALT + F11)
-	2. click on Insert on menu bar
-	3. click on File... and select mysql.bas file
+1. open VBE editor on your excel or access application (ALT + F11)  
+2. click on Insert on menu bar  
+3. click on File... and select mysql.bas file  
 
 ### MySQL ODBC Driver
 To connect Microsoft access or Microsoft excel to MySQL server first
